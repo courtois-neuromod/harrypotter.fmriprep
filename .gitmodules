@@ -1,0 +1,4 @@
+[submodule "sourcedata/harrypotter"]
+	path = sourcedata/harrypotter
+	url = git@github.com:courtois-neuromod/harrypotter.git
+	datalad-id = d58c7aa5-3e9f-48bf-9cb9-d55057f460fd
