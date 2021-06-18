@@ -10,10 +10,10 @@
 #SBATCH --mail-type=END
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=basile.pinsard@gmail.com
-
+ 
 set -e -u -x
 
-export SINGULARITYENV_TEMPLATEFLOW_HOME=/templateflow
+export SINGULARITYENV_TEMPLATEFLOW_HOME=/data/sourcedata/templateflow
 
 
 export LOCAL_DATASET=$SLURM_TMPDIR/$SLURM_JOB_NAME/
