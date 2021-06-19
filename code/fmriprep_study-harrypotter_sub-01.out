@@ -1,461 +1,93 @@
-install(ok): /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job (dataset)
-flock: getting lock took 0.000083 seconds
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job (dataset)
+flock: getting lock took 0.000076 seconds
 flock: executing datalad
-install(ok): /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
-install(ok): /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
 update(ok): . (dataset)
 configure-sibling(ok): . (sibling)
-install(ok): /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
-install(ok): /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
 action summary:
   configure-sibling (ok: 1)
   install (ok: 4)
   update (ok: 1)
-Entering 'containers'
-dead here (recording state in git...)
-
-ok
-(recording state in git...)
-Entering 'sourcedata/harrypotter'
-dead here (recording state in git...)
-ok
-(recording state in git...)
-Entering 'sourcedata/smriprep'
-dead here (recording state in git...)
-ok
-(recording state in git...)
-Entering 'sourcedata/templateflow'
-dead here (recording state in git...)
-ok
-(recording state in git...)
-get(error): sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz (file) [S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content]
-get(error): sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz (file) [S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content]
-get(error): sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz (file) [S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content]
-get(error): sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz (file) [S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-cannot download content]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-bold_dir-AP_run-01_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-AP_run-01_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-01_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-02_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-03_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-04_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-05_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-06_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-07_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/fmap/sub-01_acq-sbref_dir-PA_run-08_epi.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-01_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-01_bold__dup-01.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-01_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-01_sbref__dup-01.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-02_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-02_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-03_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-03_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-04_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-04_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-05_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-05_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-06_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-06_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-07_bold.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-07_sbref.nii.gz (file) [from origin...]
-get(ok): sourcedata/harrypotter/sub-01/sub-01_scans.tsv (file) [from origin...]
-get(impossible): sourcedata/harrypotter/sub-01 (directory) [could not get some content in /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz']]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-aparcaseg_dseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-aseg_dseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-brain_mask.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-preproc_T1w.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_dseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_from-MNI152NLin2009cAsym_to-T1w_mode-image_xfm.h5 (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_from-MNI152NLin6Asym_to-T1w_mode-image_xfm.h5 (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5 (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_from-T1w_to-MNI152NLin6Asym_mode-image_xfm.h5 (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-L_inflated.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-L_midthickness.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-L_pial.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-L_smoothwm.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-R_inflated.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-R_midthickness.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-R_pial.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_hemi-R_smoothwm.surf.gii (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_label-CSF_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_label-GM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_label-WM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_desc-brain_mask.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_desc-preproc_T1w.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_dseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_label-CSF_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_label-GM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin2009cAsym_label-WM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_desc-brain_mask.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_desc-preproc_T1w.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_dseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_label-CSF_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_label-GM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat/sub-01_space-MNI152NLin6Asym_label-WM_probseg.nii.gz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/figures/sub-01_desc-reconall_T1w.svg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/figures/sub-01_dseg.svg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/figures/sub-01_space-MNI152NLin2009cAsym_T1w.svg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/figures/sub-01_space-MNI152NLin6Asym_T1w.svg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sub-01/anat (directory)
-get(ok): sourcedata/smriprep/sub-01 (directory)
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/BA_exvivo.ctab (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/BA_exvivo.thresh.ctab (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/aparc.annot.DKTatlas.ctab (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/aparc.annot.a2009s.ctab (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/aparc.annot.ctab (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA1_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA1_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA2_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA2_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA3a_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA3a_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA3b_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA3b_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA44_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA44_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA45_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA45_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA4a_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA4a_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA4p_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA4p_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA6_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA6_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA_exvivo.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.BA_exvivo.thresh.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.MT_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.MT_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.V1_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.V1_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.V2_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.V2_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.aparc.DKTatlas.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.aparc.a2009s.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.aparc.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.cortex.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.entorhinal_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.entorhinal_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.perirhinal_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/lh.perirhinal_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA1_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA1_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA2_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA2_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA3a_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA3a_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA3b_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA3b_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA44_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA44_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA45_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA45_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA4a_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA4a_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA4p_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA4p_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA6_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA6_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA_exvivo.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.BA_exvivo.thresh.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.MT_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.MT_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.V1_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.V1_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.V2_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.V2_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.aparc.DKTatlas.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.aparc.a2009s.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.aparc.annot (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.cortex.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.entorhinal_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.entorhinal_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.perirhinal_exvivo.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/label/rh.perirhinal_exvivo.thresh.label (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/T1.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/T2.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/T2.norm.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/T2.prenorm.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aparc+aseg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aparc.DKTatlas+aseg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aparc.a2009s+aseg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.auto.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.auto_noCCseg.label_intensities.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.auto_noCCseg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.presurf.hypos.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/aseg.presurf.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/brain.finalsurfs.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/brain.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/brainmask.auto.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/brainmask.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/ctrl_pts.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/filled.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/lh.ribbon.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/mri_nu_correct.mni.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/mri_nu_correct.mni.log.bak (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/norm.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/nu.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/orig.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/orig/001.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/orig/T2raw.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/orig_nu.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/rawavg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/rh.ribbon.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/ribbon.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/segment.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/talairach.label_intensities.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/talairach.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat.mincost (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat.param (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat.sum (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.dat~ (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.auto.lta (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/T2raw.lta (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/cc_up.lta (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach.auto.xfm (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach.auto.xfm.lta (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach.lta (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach.m3z (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach.xfm (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach_avi.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talairach_avi_QA.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/transforms/talsrcimg_to_711-2C_as_mni_average_305_t4_vox2vox.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/wm.asegedit.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/wm.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/wm.seg.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/mri/wmparc.mgz (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/build-stamp.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/expert-options (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/lastcall.build-stamp.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/patchdir.txt (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/pctsurfcon.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/pctsurfcon.log.old (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/ponscc.cut.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-lh.cmd (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-lh.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-rh.cmd (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-rh.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-status-lh.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-status-rh.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all-status.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.cmd (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.done (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.env (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.env.bak (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.local-copy (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/scripts/recon-all.log (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/aseg.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.BA_exvivo.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.BA_exvivo.thresh.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.aparc.DKTatlas.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.aparc.a2009s.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.aparc.pial.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.aparc.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.curv.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/lh.w-g.pct.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.BA_exvivo.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.BA_exvivo.thresh.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.aparc.DKTatlas.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.aparc.a2009s.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.aparc.pial.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.aparc.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.curv.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/rh.w-g.pct.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/stats/wmparc.stats (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.area (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.area.mid (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.area.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.avg_curv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.curv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.curv.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.defect_borders (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.defect_chull (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.defect_labels (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.inflated (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.inflated.H (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.inflated.K (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.inflated.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.jacobian_white (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.midthickness (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.orig (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.orig.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.qsphere.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.BE.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.C.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.FI.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.H.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.K.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.K1.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.K2.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.S.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.smoothwm.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.sphere (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.sphere.reg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.sulc (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.thickness (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.volume (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.w-g.pct.mgh (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.white (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.white.preaparc (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.white.preaparc.H (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.white.preaparc.K (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/lh.woT2.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.area (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.area.mid (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.area.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.avg_curv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.curv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.curv.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.defect_borders (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.defect_chull (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.defect_labels (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.inflated (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.inflated.H (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.inflated.K (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.inflated.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.jacobian_white (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.midthickness (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.orig (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.orig.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.qsphere.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.BE.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.C.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.FI.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.H.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.K.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.K1.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.K2.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.S.crv (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.smoothwm.nofix (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.sphere (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.sphere.reg (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.sulc (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.thickness (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.volume (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.w-g.pct.mgh (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.white (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.white.preaparc (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.white.preaparc.H (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.white.preaparc.K (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/surf/rh.woT2.pial (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/tmp/cw256 (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/aparc.DKTatlas2aseg.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/aparc.a2009s2aseg.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/apas2aseg.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/asegmerge.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/ca_label.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/ca_normalize.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/ca_register.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/conform.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/cortical_ribbon.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/em_register.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/fill.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/inorm1.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/inorm2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.aparc.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.aparc2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.aparcstats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.aparcstats2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.aparcstats3.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.avgcurv.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.curvstats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.final_surfaces.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.inflate.H.K.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.inflate1.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.inflate2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.jacobian_white.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.pctsurfcon.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.pial_refine.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.pial_surface.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.qsphere.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.smoothwm1.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.smoothwm2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.sphmorph.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.sphreg.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.surfvolume.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.tessellate.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.topofix.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.white.H.K.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/lh.white_surface.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/nu.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/relabelhypos.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.aparc.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.aparc2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.aparcstats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.aparcstats2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.aparcstats3.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.avgcurv.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.curvstats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.final_surfaces.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.inflate.H.K.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.inflate1.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.inflate2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.jacobian_white.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.pctsurfcon.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.pial_refine.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.pial_surface.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.qsphere.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.smoothwm1.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.smoothwm2.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.sphmorph.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.sphreg.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.surfvolume.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.tessellate.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.topofix.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.white.H.K.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rh.white_surface.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mri_ca_register.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mri_em_register.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_fix_topology.lh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_fix_topology.rh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_inflate.lh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_inflate.rh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_register.lh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_register.rh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_sphere.lh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/rusage.mris_sphere.rh.dat (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/segstats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/talairach.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/wmaparc.stats.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/wmaparc.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/wmsegment.touch (file) [from origin-2...]
-get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01 (directory)
-get(ok): containers/images/bids/bids-fmriprep--20.2.1.sing (file) [from origin...]
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin' does not exist']
+- https://github.com/templateflow/tpl-MNI152Lin
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152Lin/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym (dataset)
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym' does not exist']
+- https://github.com/templateflow/tpl-MNI152NLin2009cSym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym (dataset)
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym' does not exist']
+- https://github.com/templateflow/tpl-MNI152NLin6Sym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152NLin6Sym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant' does not exist']
+- https://github.com/templateflow/tpl-MNIInfant
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNIInfant/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym' does not exist']
+- https://github.com/templateflow/tpl-MNIPediatricAsym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNIPediatricAsym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI' does not exist']
+- https://github.com/templateflow/tpl-NKI
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
+fatal: unable to access 'https://github.com/templateflow/tpl-NKI/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-NKI/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
+fatal: unable to access 'https://github.com/templateflow/tpl-NKI/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs (dataset)
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC' does not exist']
+- https://github.com/templateflow/tpl-PNC
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
+fatal: unable to access 'https://github.com/templateflow/tpl-PNC/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-PNC/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
+fatal: unable to access 'https://github.com/templateflow/tpl-PNC/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
+- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS' does not exist']
+- https://github.com/templateflow/tpl-WHS
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
+fatal: unable to access 'https://github.com/templateflow/tpl-WHS/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-WHS/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
+fatal: unable to access 'https://github.com/templateflow/tpl-WHS/.git/': Failed to connect to github.com port 443: Connection refused']]
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR (dataset)
+install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage (dataset)
+action summary:
+  get (notneeded: 1)
+  install (error: 8, ok: 5)

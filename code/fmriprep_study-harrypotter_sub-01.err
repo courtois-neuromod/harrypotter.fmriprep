@@ -1,118 +1,176 @@
-+ export SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow
-+ SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow
-+ export LOCAL_DATASET=/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/
-+ LOCAL_DATASET=/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/
-+ flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job) 
++ export SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow/
++ SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow/
++ export LOCAL_DATASET=/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/
++ LOCAL_DATASET=/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/
++ flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job) 
 [INFO] Scanning for unlocked files (this may take some time) 
-+ cd /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/
++ cd /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/
 + datalad get -n -r -R1 .
-[INFO] Installing Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job) to get /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job recursively 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/containers) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/containers to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/containers 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/containers) 
+[INFO] Installing Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job) to get /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/containers to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[WARNING] Failed to fetch type=git special remote datasets.datalad.org: CommandError: 'git fetch --verbose --progress datasets.datalad.org' failed with exitcode 128 under /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/containers [err: 'fatal: unable to access 'http://datasets.datalad.org/repronim/containers/.git/': Failed to connect to datasets.datalad.org port 80: Connection refused'] [cmd.py:run:409] 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/harrypotter to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
+[WARNING] Failed to fetch type=git special remote datasets.datalad.org: CommandError: 'git fetch --verbose --progress datasets.datalad.org' failed with exitcode 128 under /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers [err: 'fatal: unable to access 'http://datasets.datalad.org/repronim/containers/.git/': Failed to connect to datasets.datalad.org port 80: Connection refused'] [cmd.py:run:409] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/harrypotter to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
+[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow" enable -s public-s3 
-+ git submodule foreach --recursive git annex dead here
-  Remote datasets.datalad.org not usable by git-annex; setting annex-ignore
-+ git checkout -b fmriprep_study-harrypotter_sub-01.job
-Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
-+ '[' -d sourcedata/freesurfer ']'
-+ datalad containers-run -m fMRIPrep_sub-01_ses-None -n containers/bids-fmriprep --input 'sourcedata/*/sub-01/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/*/sub-01/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input sourcedata/smriprep/sub-01/anat/ --input sourcedata/smriprep/sourcedata/freesurfer/sub-01/ --input 'sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}' --output . -- -w ./workdir --participant-label 01 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-01_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant
-[INFO] Making sure inputs are available (this may take some time) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep/sourcedata/freesurfer to /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow" enable -s public-s3 
++ datalad get -n -r sourcedata/templateflow/
+[INFO] Installing Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152Lin to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152Lin/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin) 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin' does not exist']
+- https://github.com/templateflow/tpl-MNI152Lin
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152Lin/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin)] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cAsym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
-[ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz)] 
-[ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz)] 
-[ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz)] 
-[ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz)] 
-[WARNING] could not get some content in /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz'] [get(/localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01)] 
-[WARNING] Input does not exist: /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage} 
-[WARNING] Input does not exist: /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
-[WARNING] Input does not exist: /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
-[INFO] == Command start (output follows) ===== 
-/usr/local/miniconda/lib/python3.7/site-packages/bids/layout/validation.py:46: UserWarning: The ability to pass arguments to BIDSLayout that control indexing is likely to be removed in future; possibly as early as PyBIDS 0.14. This includes the `config_filename`, `ignore`, `force_index`, and `index_metadata` arguments. The recommended usage pattern is to initialize a new BIDSLayoutIndexer with these arguments, and pass it to the BIDSLayout via the `indexer` argument.
-  warnings.warn("The ability to pass arguments to BIDSLayout that control "
-Traceback (most recent call last):
-  File "/usr/local/miniconda/bin/fmriprep", line 10, in <module>
-    sys.exit(main())
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/cli/run.py", line 17, in main
-    parse_args()
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/cli/parser.py", line 594, in parse_args
-    opts = parser.parse_args(args, namespace)
-  File "/usr/local/miniconda/lib/python3.7/argparse.py", line 1749, in parse_args
-    args, argv = self.parse_known_args(args, namespace)
-  File "/usr/local/miniconda/lib/python3.7/argparse.py", line 1781, in parse_known_args
-    namespace, args = self._parse_known_args(args, namespace)
-  File "/usr/local/miniconda/lib/python3.7/argparse.py", line 1987, in _parse_known_args
-    start_index = consume_optional(start_index)
-  File "/usr/local/miniconda/lib/python3.7/argparse.py", line 1927, in consume_optional
-    take_action(action, args, option_string)
-  File "/usr/local/miniconda/lib/python3.7/argparse.py", line 1855, in take_action
-    action(self, namespace, argument_values, option_string)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/utils/spaces.py", line 686, in __call__
-    for sp in Reference.from_string(val):
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/utils/spaces.py", line 314, in from_string
-    return [cls(_args[0], s) for s in allspecs]
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/utils/spaces.py", line 314, in <listcomp>
-    return [cls(_args[0], s) for s in allspecs]
-  File "<attrs generated init niworkflows.utils.spaces.Reference>", line 11, in __init__
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/utils/spaces.py", line 226, in _check_name
-    "identifiers are: %s" % (value, ", ".join(valid))
-ValueError: space identifier "MNI152NLin2009cAsym" is invalid.
-Valid identifiers are: T1w, T2w, anat, fsnative, func, run, sbref, session, individual, dwi
-[INFO] == Command exit (modification check follows) ===== 
-[INFO] The command had a non-zero exit code. If this is expected, you can save the changes with 'datalad save -d . -r -F .git/COMMIT_EDITMSG' 
-CommandError: 'containers/scripts/singularity_cmd run containers/images/bids/bids-fmriprep--20.2.1.sing -w ./workdir --participant-label 01 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-01_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant' failed with exitcode 1 under /localscratch/bpinsard.21459601.0/fmriprep_study-harrypotter_sub-01.job
+[INFO] access to 2 dataset siblings public-s3, box.com not auto-enabled, enable with:
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym" enable -s SIBLING 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152NLin2009cSym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym) 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym' does not exist']
+- https://github.com/templateflow/tpl-MNI152NLin2009cSym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym)] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Asym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym) 
+[INFO] Scanning for unlocked files (this may take some time) 
+[INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym" enable -s public-s3 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152NLin6Sym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNI152NLin6Sym/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym) 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym' does not exist']
+- https://github.com/templateflow/tpl-MNI152NLin6Sym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNI152NLin6Sym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym)] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNIInfant to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNIInfant/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNIPediatricAsym to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant' does not exist']
+- https://github.com/templateflow/tpl-MNIInfant
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNIInfant/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant)] 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-MNIPediatricAsym/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-NKI to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym' does not exist']
+- https://github.com/templateflow/tpl-MNIPediatricAsym
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-MNIPediatricAsym/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
+fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym)] 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-NKI/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-OASIS30ANTs to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI' does not exist']
+- https://github.com/templateflow/tpl-NKI
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
+fatal: unable to access 'https://github.com/templateflow/tpl-NKI/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-NKI/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
+fatal: unable to access 'https://github.com/templateflow/tpl-NKI/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI)] 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
+[INFO] Scanning for unlocked files (this may take some time) 
+[INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs" enable -s public-s3 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-PNC to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-PNC/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-WHS to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC' does not exist']
+- https://github.com/templateflow/tpl-PNC
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
+fatal: unable to access 'https://github.com/templateflow/tpl-PNC/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-PNC/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
+fatal: unable to access 'https://github.com/templateflow/tpl-PNC/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC)] 
+[INFO] Attempting to clone from https://github.com/templateflow/tpl-WHS/.git to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS) 
+[ERROR] Failed to clone from any candidate source URL. Encountered errors per each url were:
+| - /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS
+  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS' does not exist']
+- https://github.com/templateflow/tpl-WHS
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
+fatal: unable to access 'https://github.com/templateflow/tpl-WHS/': Failed to connect to github.com port 443: Connection refused']
+- https://github.com/templateflow/tpl-WHS/.git
+  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
+fatal: unable to access 'https://github.com/templateflow/tpl-WHS/.git/': Failed to connect to github.com port 443: Connection refused'] [install(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS)] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsLR to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
+[INFO] Scanning for unlocked files (this may take some time) 
+[INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR" enable -s public-s3 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsaverage to /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
+[INFO] Scanning for unlocked files (this may take some time) 
+[INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
+| 		datalad siblings -d "/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage" enable -s public-s3 
