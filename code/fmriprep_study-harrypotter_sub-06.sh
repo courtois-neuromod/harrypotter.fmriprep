@@ -19,8 +19,8 @@ export SINGULARITYENV_TEMPLATEFLOW_HOME="sourcedata/templateflow/"
 export LOCAL_DATASET=$SLURM_TMPDIR/$SLURM_JOB_NAME/
 flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter $LOCAL_DATASET
 cd $LOCAL_DATASET
-datalad get -n -r -R1 . # get sourcedata/*
-datalad get -n -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}
+datalad get -s origin -n -r -R1 . # get sourcedata/*
+datalad get -s origin -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}
 git submodule foreach --recursive git annex dead here
 git checkout -b $SLURM_JOB_NAME
 if [ -d sourcedata/freesurfer ] ; then
