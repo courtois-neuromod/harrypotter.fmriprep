@@ -1,93 +1,19 @@
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job (dataset)
-flock: getting lock took 0.000076 seconds
+install(ok): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job (dataset)
+flock: getting lock took 0.000084 seconds
 flock: executing datalad
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
+install(ok): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
+install(ok): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
 update(ok): . (dataset)
 configure-sibling(ok): . (sibling)
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
+install(ok): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
+install(ok): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
 action summary:
   configure-sibling (ok: 1)
   install (ok: 4)
   update (ok: 1)
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152Lin' does not exist']
-- https://github.com/templateflow/tpl-MNI152Lin
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-MNI152Lin/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152Lin/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152Lin'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152Lin/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym (dataset)
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cSym' does not exist']
-- https://github.com/templateflow/tpl-MNI152NLin2009cSym
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cSym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin2009cSym/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Asym (dataset)
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin6Sym' does not exist']
-- https://github.com/templateflow/tpl-MNI152NLin6Sym
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-MNI152NLin6Sym/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNI152NLin6Sym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin6Sym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNI152NLin6Sym/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIInfant' does not exist']
-- https://github.com/templateflow/tpl-MNIInfant
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-MNIInfant/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIInfant/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIInfant'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNIInfant/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNIPediatricAsym' does not exist']
-- https://github.com/templateflow/tpl-MNIPediatricAsym
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-MNIPediatricAsym/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-MNIPediatricAsym/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNIPediatricAsym'...
-fatal: unable to access 'https://github.com/templateflow/tpl-MNIPediatricAsym/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-NKI' does not exist']
-- https://github.com/templateflow/tpl-NKI
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
-fatal: unable to access 'https://github.com/templateflow/tpl-NKI/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-NKI/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-NKI/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-NKI'...
-fatal: unable to access 'https://github.com/templateflow/tpl-NKI/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs (dataset)
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-PNC' does not exist']
-- https://github.com/templateflow/tpl-PNC
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
-fatal: unable to access 'https://github.com/templateflow/tpl-PNC/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-PNC/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-PNC/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-PNC'...
-fatal: unable to access 'https://github.com/templateflow/tpl-PNC/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(error): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS (dataset) [Failed to clone from any candidate source URL. Encountered errors per each url were:
-- /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS
-  CommandError: 'git clone --progress /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'fatal: repository '/lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-WHS' does not exist']
-- https://github.com/templateflow/tpl-WHS
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
-fatal: unable to access 'https://github.com/templateflow/tpl-WHS/': Failed to connect to github.com port 443: Connection refused']
-- https://github.com/templateflow/tpl-WHS/.git
-  CommandError: 'git clone --progress https://github.com/templateflow/tpl-WHS/.git /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS' failed with exitcode 128 [err: 'Cloning into '/localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-WHS'...
-fatal: unable to access 'https://github.com/templateflow/tpl-WHS/.git/': Failed to connect to github.com port 443: Connection refused']]
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR (dataset)
-install(ok): /localscratch/bpinsard.21461104.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage (dataset)
+get(impossible): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/MNI152NLin2009cAsym [path does not exist]
+get(impossible): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/OASIS30ANTs [path does not exist]
+get(impossible): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/fsLR [path does not exist]
+get(impossible): /localscratch/bpinsard.21463565.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/fsaverage [path does not exist]
 action summary:
-  get (notneeded: 1)
-  install (error: 8, ok: 5)
+  get (impossible: 4)
