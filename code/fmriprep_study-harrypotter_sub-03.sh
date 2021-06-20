@@ -20,7 +20,7 @@ export LOCAL_DATASET=$SLURM_TMPDIR/$SLURM_JOB_NAME/
 flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter $LOCAL_DATASET
 cd $LOCAL_DATASET
 datalad get -s origin -n -r -R1 . # get sourcedata/*
-datalad get -s origin -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}
+datalad get -s origin -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage,MNI152NLin6Asym}
 git submodule foreach --recursive git annex dead here
 git checkout -b $SLURM_JOB_NAME
 if [ -d sourcedata/freesurfer ] ; then
@@ -28,7 +28,7 @@ if [ -d sourcedata/freesurfer ] ; then
 fi
 
 
-datalad containers-run -m 'fMRIPrep_sub-03_ses-None' -n containers/bids-fmriprep --input 'sourcedata/*/sub-03/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/*/sub-03/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/smriprep/sub-03/anat/' --input 'sourcedata/smriprep/sourcedata/freesurfer/sub-03/' --input 'sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}' --output . -- -w ./workdir --participant-label 03 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-03_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant 
+datalad containers-run -m 'fMRIPrep_sub-03_ses-None' -n containers/bids-fmriprep --input 'sourcedata/*/sub-03/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/*/sub-03/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/smriprep/sub-03/anat/' --input 'sourcedata/smriprep/sourcedata/freesurfer/sub-03/' --input 'sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage,MNI152NLin6Asym}' --output . -- -w ./workdir --participant-label 03 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-03_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant 
 fmriprep_exitcode=$?
 cp $SLURM_TMPDIR/fmriprep_wf/resource_monitor.json /scratch/bpinsard/fmriprep_study-harrypotter_sub-03_resource_monitor.json 
 if [ $fmriprep_exitcode -ne 0 ] ; then cp -R $SLURM_TMPDIR /scratch/bpinsard/fmriprep_study-harrypotter_sub-03.workdir ; fi 

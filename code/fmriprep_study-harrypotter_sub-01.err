@@ -1,68 +1,68 @@
 + export SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow/
 + SINGULARITYENV_TEMPLATEFLOW_HOME=sourcedata/templateflow/
-+ export LOCAL_DATASET=/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/
-+ LOCAL_DATASET=/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/
-+ flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job) 
++ export LOCAL_DATASET=/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/
++ LOCAL_DATASET=/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/
++ flock --verbose /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/.datalad_lock datalad clone /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job) 
 [INFO] Scanning for unlocked files (this may take some time) 
-+ cd /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/
-+ datalad get -n -r -R1 .
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job recursively 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/containers) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/containers to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/containers 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/containers) 
++ cd /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/
++ datalad get -s origin -n -r -R1 .
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/containers) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/containers to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/containers 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/containers) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[WARNING] Failed to fetch type=git special remote datasets.datalad.org: CommandError: 'git fetch --verbose --progress datasets.datalad.org' failed with exitcode 128 under /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/containers [err: 'fatal: unable to access 'http://datasets.datalad.org/repronim/containers/.git/': Failed to connect to datasets.datalad.org port 80: Connection refused'] [cmd.py:run:409] 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/harrypotter to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
+[WARNING] Failed to fetch type=git special remote datasets.datalad.org: CommandError: 'git fetch --verbose --progress datasets.datalad.org' failed with exitcode 128 under /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/containers [err: 'fatal: unable to access 'http://datasets.datalad.org/repronim/containers/.git/': Failed to connect to datasets.datalad.org port 80: Connection refused'] [cmd.py:run:409] 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/harrypotter to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
+[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow" enable -s public-s3 
-+ datalad get -n -r sourcedata/templateflow/tpl-MNI152NLin2009cAsym sourcedata/templateflow/tpl-OASIS30ANTs sourcedata/templateflow/tpl-fsLR sourcedata/templateflow/tpl-fsaverage
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cAsym to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
+| 		datalad siblings -d "/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow" enable -s public-s3 
++ datalad get -s origin -r sourcedata/templateflow/tpl-MNI152NLin2009cAsym sourcedata/templateflow/tpl-OASIS30ANTs sourcedata/templateflow/tpl-fsLR sourcedata/templateflow/tpl-fsaverage
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-MNI152NLin2009cAsym to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 2 dataset siblings public-s3, box.com not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym" enable -s SIBLING 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym recursively 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-OASIS30ANTs to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
+| 		datalad siblings -d "/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym" enable -s SIBLING 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-OASIS30ANTs to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs" enable -s public-s3 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs recursively 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsLR to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
+| 		datalad siblings -d "/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs" enable -s public-s3 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsLR to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR" enable -s public-s3 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR recursively 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsaverage to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
+| 		datalad siblings -d "/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR" enable -s public-s3 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR recursively 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/templateflow/tpl-fsaverage to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) 
 [INFO] Scanning for unlocked files (this may take some time) 
 [INFO] access to 1 dataset sibling public-s3 not auto-enabled, enable with:
-| 		datalad siblings -d "/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage" enable -s public-s3 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage recursively 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym recursively 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs recursively 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR recursively 
-[INFO] Installing Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage recursively 
+| 		datalad siblings -d "/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage" enable -s public-s3 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage recursively 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym recursively 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs recursively 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR recursively 
+[INFO] Installing Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage) to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage recursively 
 + git submodule foreach --recursive git annex dead here
   Remote datasets.datalad.org not usable by git-annex; setting annex-ignore
 + git checkout -b fmriprep_study-harrypotter_sub-01.job
@@ -70,11 +70,11 @@ Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
 + '[' -d sourcedata/freesurfer ']'
 + datalad containers-run -m fMRIPrep_sub-01_ses-None -n containers/bids-fmriprep --input 'sourcedata/*/sub-01/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input 'sourcedata/*/sub-01/{func,fmap}/*_{sbref,bold,epi}.nii.gz' --input sourcedata/smriprep/sub-01/anat/ --input sourcedata/smriprep/sourcedata/freesurfer/sub-01/ --input 'sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage}' --output . -- -w ./workdir --participant-label 01 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-01_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant
 [INFO] Making sure inputs are available (this may take some time) 
-[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
-[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep/sourcedata/freesurfer to /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer 
-[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
+[INFO] Cloning dataset to Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
+[INFO] Attempting to clone from /lustre03/project/6003287/datasets/cneuromod_processed/fmriprep/harrypotter/sourcedata/smriprep/sourcedata/freesurfer to /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer 
+[INFO] Completed clone attempts for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
 [INFO] Scanning for unlocked files (this may take some time) 
-[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
+[INFO] Fetching updates for Dataset(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer) 
 [ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | cannot download content
@@ -83,7 +83,7 @@ Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
 | cannot download content
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz)] 
+| cannot download content [get(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz)] 
 [ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | cannot download content
@@ -92,7 +92,7 @@ Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
 | cannot download content
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz)] 
+| cannot download content [get(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz)] 
 [ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | cannot download content
@@ -101,7 +101,7 @@ Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
 | cannot download content
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz)] 
+| cannot download content [get(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz)] 
 [ERROR] S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | cannot download content
@@ -110,85 +110,14 @@ Switched to a new branch 'fmriprep_study-harrypotter_sub-01.job'
 | cannot download content
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
 | S3 bucket does not allow public access; Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to use S3
-| cannot download content [get(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz)] 
-[WARNING] could not get some content in /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz'] [get(/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01)] 
-[WARNING] Input does not exist: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage} 
-[WARNING] Input does not exist: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
-[WARNING] Input does not exist: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
+| cannot download content [get(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz)] 
+[WARNING] could not get some content in /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz'] [get(/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01)] 
+[WARNING] Input does not exist: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage} 
+[WARNING] Input does not exist: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
+[WARNING] Input does not exist: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/*/sub-01/ses-None/{func,fmap}/*_{sbref,bold,epi}.nii.gz 
 [INFO] == Command start (output follows) ===== 
 /usr/local/miniconda/lib/python3.7/site-packages/bids/layout/validation.py:46: UserWarning: The ability to pass arguments to BIDSLayout that control indexing is likely to be removed in future; possibly as early as PyBIDS 0.14. This includes the `config_filename`, `ignore`, `force_index`, and `index_metadata` arguments. The recommended usage pattern is to initialize a new BIDSLayoutIndexer with these arguments, and pass it to the BIDSLayout via the `indexer` argument.
   warnings.warn("The ability to pass arguments to BIDSLayout that control "
-Downloading https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz
-Process Process-2:
-Traceback (most recent call last):
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connection.py", line 171, in _new_conn
-    (self._dns_host, self.port), self.timeout, **extra_kw)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/util/connection.py", line 79, in create_connection
-    raise err
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/util/connection.py", line 69, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
-    chunked=chunked)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connectionpool.py", line 343, in _make_request
-    self._validate_conn(conn)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connectionpool.py", line 849, in _validate_conn
-    conn.connect()
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connection.py", line 314, in connect
-    conn = self._new_conn()
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connection.py", line 180, in _new_conn
-    self, "Failed to establish a new connection: %s" % e)
-urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x2b202057c278>: Failed to establish a new connection: [Errno 111] Connection refused
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/adapters.py", line 445, in send
-    timeout=timeout
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
-    _stacktrace=sys.exc_info()[2])
-  File "/usr/local/miniconda/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='templateflow.s3.amazonaws.com', port=443): Max retries exceeded with url: /tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x2b202057c278>: Failed to establish a new connection: [Errno 111] Connection refused'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/miniconda/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/usr/local/miniconda/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/cli/workflow.py", line 82, in build_workflow
-    retval["workflow"] = init_fmriprep_wf()
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/base.py", line 64, in init_fmriprep_wf
-    single_subject_wf = init_single_subject_wf(subject_id)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/base.py", line 304, in init_single_subject_wf
-    func_preproc_wf = init_func_preproc_wf(bold_file)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/fmriprep/workflows/bold/base.py", line 317, in init_func_preproc_wf
-    multiecho=multiecho,
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/func/util.py", line 162, in init_bold_reference_wf
-    pre_mask=pre_mask,
-  File "/usr/local/miniconda/lib/python3.7/site-packages/niworkflows/func/util.py", line 414, in init_enhance_and_skullstrip_bold_wf
-    "MNI152NLin2009cAsym", resolution=2, desc="fMRIPrep", suffix="boldref"
-  File "/usr/local/miniconda/lib/python3.7/site-packages/templateflow/api.py", line 68, in get
-    _s3_get(filepath)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/templateflow/api.py", line 208, in _s3_get
-    r = requests.get(url, stream=True)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/api.py", line 72, in get
-    return request('get', url, params=params, **kwargs)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/api.py", line 58, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/sessions.py", line 512, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/sessions.py", line 622, in send
-    r = adapter.send(request, **kwargs)
-  File "/usr/local/miniconda/lib/python3.7/site-packages/requests/adapters.py", line 513, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='templateflow.s3.amazonaws.com', port=443): Max retries exceeded with url: /tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x2b202057c278>: Failed to establish a new connection: [Errno 111] Connection refused'))
 Traceback (most recent call last):
   File "/usr/local/miniconda/bin/fmriprep", line 10, in <module>
     sys.exit(main())
@@ -205,4 +134,4 @@ ValueError: space identifier "MNI152NLin6Asym" is invalid.
 Valid identifiers are: MNI152NLin2009cAsym, OASIS30ANTs, fsLR, fsaverage, T1w, T2w, anat, fsnative, func, run, sbref, session, individual, dwi
 [INFO] == Command exit (modification check follows) ===== 
 [INFO] The command had a non-zero exit code. If this is expected, you can save the changes with 'datalad save -d . -r -F .git/COMMIT_EDITMSG' 
-CommandError: 'containers/scripts/singularity_cmd run containers/images/bids/bids-fmriprep--20.2.1.sing -w ./workdir --participant-label 01 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-01_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant' failed with exitcode 1 under /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job
+CommandError: 'containers/scripts/singularity_cmd run containers/images/bids/bids-fmriprep--20.2.1.sing -w ./workdir --participant-label 01 --anat-derivatives ./sourcedata/smriprep --fs-subjects-dir ./sourcedata/smriprep/sourcedata/freesurfer --bids-filter-file code/fmriprep_study-harrypotter_sub-01_bids_filters.json --output-layout bids --ignore slicetiming --use-syn-sdc --output-spaces MNI152NLin2009cAsym T1w:res-iso2mm --cifti-output 91k --notrack --write-graph --skip_bids_validation --omp-nthreads 8 --nprocs 16 --mem_mb 65536 --fs-license-file code/freesurfer.license --resource-monitor sourcedata/harrypotter ./ participant' failed with exitcode 1 under /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job

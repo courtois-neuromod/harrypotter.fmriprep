@@ -1,21 +1,172 @@
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job (dataset)
-flock: getting lock took 0.000086 seconds
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job (dataset)
+flock: getting lock took 0.000082 seconds
 flock: executing datalad
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/containers (dataset)
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter (dataset)
 update(ok): . (dataset)
 configure-sibling(ok): . (sibling)
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep (dataset)
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow (dataset)
 action summary:
   configure-sibling (ok: 1)
   install (ok: 4)
   update (ok: 1)
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym]
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs]
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR]
-install(ok): /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage]
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-MNI152NLin2009cAsym]
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-OASIS30ANTs]
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsLR]
+install(ok): /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage (dataset) [Installed subdataset in order to get /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/templateflow/tpl-fsaverage]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5 (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_PD.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_T2w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPAL_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPAL_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPAL_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPA_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPA_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOCPA_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOSPA_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOSPA_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-HOSPA_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-1000Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-1000Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-100Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-100Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-200Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-200Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-300Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-300Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-400Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-400Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-500Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-500Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-600Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-600Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-800Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-Schaefer2018_desc-800Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-BrainCerebellumExtraction_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-BrainCerebellumRegistration_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-brain_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-brain_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-carpet_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-eye_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-face_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_desc-head_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-CSF_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-GM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-WM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_label-brain_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_PD.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_T2w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPAL_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPAL_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPAL_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPA_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPA_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOCPA_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOSPA_desc-th0_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOSPA_desc-th25_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOSPA_desc-th50_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-HOSPA_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-1000Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-1000Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-100Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-100Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-200Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-200Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-300Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-300Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-400Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-400Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-500Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-500Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-600Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-600Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-800Parcels17Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_atlas-Schaefer2018_desc-800Parcels7Networks_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-DKT31_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-brain_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-brain_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-carpet_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-eye_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-fMRIPrep_boldref.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-face_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_desc-head_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_label-CSF_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_label-GM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-02_label-WM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-4_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-6_dseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-BrainCerebellumExtraction_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-BrainCerebellumRegistration_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-brain_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_desc-brain_mask.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-BS_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-CBM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-CGM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-CSF_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-SCGM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-WM_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-OASIS30ANTs/tpl-OASIS30ANTs_res-01_label-brain_probseg.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-164k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-164k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-32k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-59k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-59k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-L_den-59k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-164k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-32k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-59k_desc-nomedialwall_dparc.label.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-59k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_hemi-R_den-59k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-32k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-L_den-59k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-32k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsLR/tpl-fsLR_space-fsaverage_hemi-R_den-59k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-10k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-10k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-10k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_desc-std_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-164k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-3k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-3k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-3k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-41k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-41k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-L_den-41k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-10k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-10k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-10k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-std_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_desc-vaavg_midthickness.shape.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-164k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-3k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-3k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-3k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-41k_pial.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-41k_sphere.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_hemi-R_den-41k_white.surf.gii (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_res-01_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_res-01_den-41k_T1w.nii.gz (file) [from origin...]
+get(ok): sourcedata/templateflow/tpl-fsaverage/tpl-fsaverage_res-01_desc-brain_mask.nii.gz (file) [from origin...]
 action summary:
+  get (ok: 150)
   install (ok: 4)
 Entering 'containers'
 dead here (recording state in git...)
@@ -113,7 +264,7 @@ get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-06_sbref
 get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-07_bold.nii.gz (file) [from origin...]
 get(ok): sourcedata/harrypotter/sub-01/func/sub-01_task-harrypotter_run-07_sbref.nii.gz (file) [from origin...]
 get(ok): sourcedata/harrypotter/sub-01/sub-01_scans.tsv (file) [from origin...]
-get(impossible): sourcedata/harrypotter/sub-01 (directory) [could not get some content in /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz']]
+get(impossible): sourcedata/harrypotter/sub-01 (directory) [could not get some content in /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01 ['/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer1.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer2.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_localizer3.nii.gz', '/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter/sub-01/anat/sub-01_scout.nii.gz']]
 get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-aparcaseg_dseg.nii.gz (file) [from origin-2...]
 get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-aseg_dseg.nii.gz (file) [from origin-2...]
 get(ok): sourcedata/smriprep/sub-01/anat/sub-01_desc-brain_mask.nii.gz (file) [from origin-2...]
@@ -481,16 +632,30 @@ get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/wmaparc.touch (f
 get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01/touch/wmsegment.touch (file) [from origin-2...]
 get(ok): sourcedata/smriprep/sourcedata/freesurfer/sub-01 (directory)
 get(ok): containers/images/bids/bids-fmriprep--20.2.1.sing (file) [from origin...]
-210620-00:10:48,524 nipype.workflow IMPORTANT:
+210620-00:26:08,213 nipype.workflow IMPORTANT:
 	 
     Running fMRIPREP version 20.2.1:
-      * BIDS dataset path: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter.
+      * BIDS dataset path: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/harrypotter.
       * Participant list: ['01'].
-      * Run identifier: 20210620-001032_4697831e-9fd4-49c0-bba6-bf5c84e4442f.
+      * Run identifier: 20210620-002550_1c03a5bb-ba23-461f-894b-9bf3204d538d.
       * Output spaces: MNI152NLin2009cAsym:res-native T1w:res-iso2mm.
-      * Anatomical derivatives: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep.
-      * Pre-run FreeSurfer's SUBJECTS_DIR: /localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer.
-210620-00:10:49,395 nipype.workflow IMPORTANT:
-	 Anatomical workflow will reuse prior derivatives found in the output folder (/localscratch/bpinsard.21466518.0/fmriprep_study-harrypotter_sub-01.job).
-210620-00:10:49,458 nipype.workflow INFO:
+      * Anatomical derivatives: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep.
+      * Pre-run FreeSurfer's SUBJECTS_DIR: /localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job/sourcedata/smriprep/sourcedata/freesurfer.
+210620-00:26:08,954 nipype.workflow IMPORTANT:
+	 Anatomical workflow will reuse prior derivatives found in the output folder (/localscratch/bpinsard.21466606.0/fmriprep_study-harrypotter_sub-01.job).
+210620-00:26:09,12 nipype.workflow INFO:
 	 Using single-band reference file(s) sub-01_task-harrypotter_run-01_sbref.nii.gz.
+210620-00:26:09,729 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-02_sbref.nii.gz.
+210620-00:26:10,111 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-03_sbref.nii.gz.
+210620-00:26:10,489 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-04_sbref.nii.gz.
+210620-00:26:10,869 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-05_sbref.nii.gz.
+210620-00:26:11,267 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-06_sbref.nii.gz.
+210620-00:26:11,647 nipype.workflow INFO:
+	 Using single-band reference file(s) sub-01_task-harrypotter_run-07_sbref.nii.gz.
+210620-00:26:15,787 nipype.workflow INFO:
+	 fMRIPrep workflow graph with 1745 nodes built successfully.
