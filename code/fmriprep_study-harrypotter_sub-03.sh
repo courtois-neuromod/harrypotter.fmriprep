@@ -22,7 +22,7 @@ cd $LOCAL_DATASET
 datalad get -s origin -n -r -R1 . # get sourcedata/*
 datalad get -s origin -r sourcedata/templateflow/tpl-{MNI152NLin2009cAsym,OASIS30ANTs,fsLR,fsaverage,MNI152NLin6Asym}
 if [ -d sourcedata/smriprep ] ; then
-    datalad get -n -s origin -r sourcedata/smriprep
+    datalad get -n -r sourcedata/smriprep
 fi
 git submodule foreach --recursive git annex dead here
 git checkout -b $SLURM_JOB_NAME
