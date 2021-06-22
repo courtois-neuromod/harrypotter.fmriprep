@@ -1,0 +1,1 @@
+ecec021b-30c9-45a7-b31b-e3b045f4d03d autoenable=true bucket=cneuromod.harrypotter.fmriprep-lts chunk=1GiB datacenter=US encryption=none exporttree=no host=s3.unf-montreal.ca name=s3unf.harrypotter.fmriprep-lts port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1624383378.38615s
