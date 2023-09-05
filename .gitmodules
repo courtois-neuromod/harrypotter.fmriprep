@@ -5,12 +5,12 @@
 	datalad-url = git@github.com:courtois-neuromod/harrypotter.git
 [submodule "sourcedata/smriprep"]
 	path = sourcedata/smriprep
-	url = /home/bpinsard/projects/rrg-pbellec/datasets/cneuromod_processed/fmriprep/harrypotter/../../smriprep/
+	url = git@github.com:courtois-neuromod/anat.smriprep.git
 	datalad-id = f3ef9683-0a58-4d2b-b4eb-d33d8fc3fd2b
 	datalad-url = git@github.com:courtois-neuromod/anat.smriprep.git
 [submodule "containers"]
 	path = containers
-	url = http://datasets.datalad.org/repronim/containers/.git
+	url = git@github.com:courtois-neuromod/containers.git
 	datalad-id = b02e63c2-62c1-11e9-82b0-52540040489c
 	datalad-url = ///repronim/containers
 [submodule "sourcedata/templateflow"]
